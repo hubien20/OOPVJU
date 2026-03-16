@@ -1,13 +1,13 @@
 #time
-minutes = float(input('Nhập phút: '))
-seconds = float(input('Nhập giây: '))
+minutes = 42
+seconds = 42
 total_seconds = minutes * 60 + seconds
 total_minutes = minutes + seconds/60
 hours = total_seconds / 3600
 print("Total seconds:", total_seconds)
 
 #distance
-kilometers = float(input('Kilometers: '))
+kilometers =10
 miles = kilometers/1.61
 print("Miles: ",miles)
 
